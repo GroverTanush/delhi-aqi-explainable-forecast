@@ -70,4 +70,4 @@ Evaluation of individual predictions on Severe winter test days (truth > 400 AQI
 > For the 5-day forecast on 2025-10-16 targeting 2025-10-21: forecast 2025-10-16, target 2025-10-21, actual 454.7, predicted 275.9, error 178.7. This bad case is the Severe winter day with the largest error, representing a worst case rather than a typical one.
 
 ---
-*Report generated: 2026-11-08 23:51:49*
+*Report generated: 2026-11-24 17:29:19*

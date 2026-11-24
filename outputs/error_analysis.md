@@ -94,7 +94,7 @@ Monthly breakdown of Mean Absolute Error (MAE) and Mean Bias ($Predicted - Actua
 | Dec | 62 | 58.50 | 59.31 | -2.65 | +9.45 |
 
 ### Figure Interpretation: `outputs/error_by_month.png`
-> The bar chart displays higher MAE during the winter months (November through January, peaking above 45 AQI) and lower MAE during the summer/monsoon calendar period (July to September, below 25 AQI) across all horizons.
+> The bar chart displays higher MAE during the winter months (November through January, peaking above 45 AQI) and lower MAE during the monsoon and summer months (July through September, below 25 AQI) across all horizons.
 > Random Forest achieves lower MAE than the baseline during most months at horizon h=1, whereas at horizon h=5 the errors of Random Forest and Climatology are closely matched throughout the year.
 
 ---
@@ -114,7 +114,7 @@ Comparison across Persistence, Climatology, Ridge, and Random Forest partitioned
 | h=1 | Non-Winter (Mar-Sep) | Climatology | 585 | 0.144 | 34.96 | +8.98 | 0.333 | 0.131 |
 | h=1 | Non-Winter (Mar-Sep) | Ridge | 585 | 0.144 | 24.41 | -2.07 | 0.635 | 0.476 |
 | h=1 | Non-Winter (Mar-Sep) | Random Forest | 585 | 0.144 | 24.12 | +3.08 | 0.573 | 0.512 |
-| h=1 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.144 | — | — | 0.000 | 0.000 |
+| h=1 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.144 | — | — | 0.144 | 1.000 |
 | h=2 | Winter (Oct-Feb) | Persistence | 302 | 0.821 | 56.68 | -0.25 | 0.911 | 0.907 |
 | h=2 | Winter (Oct-Feb) | Climatology | 302 | 0.821 | 50.92 | +7.69 | 0.876 | 0.996 |
 | h=2 | Winter (Oct-Feb) | Ridge | 302 | 0.821 | 48.02 | -6.79 | 0.894 | 0.984 |
@@ -124,7 +124,7 @@ Comparison across Persistence, Climatology, Ridge, and Random Forest partitioned
 | h=2 | Non-Winter (Mar-Sep) | Climatology | 585 | 0.142 | 35.02 | +9.01 | 0.333 | 0.133 |
 | h=2 | Non-Winter (Mar-Sep) | Ridge | 585 | 0.142 | 31.33 | -4.45 | 0.551 | 0.325 |
 | h=2 | Non-Winter (Mar-Sep) | Random Forest | 585 | 0.142 | 30.89 | +4.61 | 0.500 | 0.386 |
-| h=2 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.142 | — | — | 0.000 | 0.000 |
+| h=2 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.142 | — | — | 0.142 | 1.000 |
 | h=3 | Winter (Oct-Feb) | Persistence | 302 | 0.821 | 63.49 | -0.48 | 0.895 | 0.891 |
 | h=3 | Winter (Oct-Feb) | Climatology | 302 | 0.821 | 50.91 | +7.80 | 0.876 | 0.996 |
 | h=3 | Winter (Oct-Feb) | Ridge | 302 | 0.821 | 51.54 | -9.59 | 0.886 | 0.976 |
@@ -134,7 +134,7 @@ Comparison across Persistence, Climatology, Ridge, and Random Forest partitioned
 | h=3 | Non-Winter (Mar-Sep) | Climatology | 585 | 0.142 | 35.16 | +9.11 | 0.333 | 0.133 |
 | h=3 | Non-Winter (Mar-Sep) | Ridge | 585 | 0.142 | 33.60 | -6.68 | 0.394 | 0.157 |
 | h=3 | Non-Winter (Mar-Sep) | Random Forest | 585 | 0.142 | 33.49 | +4.31 | 0.354 | 0.205 |
-| h=3 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.142 | — | — | 0.000 | 0.000 |
+| h=3 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.142 | — | — | 0.142 | 1.000 |
 | h=4 | Winter (Oct-Feb) | Persistence | 302 | 0.821 | 65.11 | -0.38 | 0.903 | 0.899 |
 | h=4 | Winter (Oct-Feb) | Climatology | 302 | 0.821 | 51.20 | +8.18 | 0.876 | 0.996 |
 | h=4 | Winter (Oct-Feb) | Ridge | 302 | 0.821 | 52.19 | -7.00 | 0.879 | 0.968 |
@@ -144,7 +144,7 @@ Comparison across Persistence, Climatology, Ridge, and Random Forest partitioned
 | h=4 | Non-Winter (Mar-Sep) | Climatology | 585 | 0.142 | 35.02 | +8.97 | 0.333 | 0.133 |
 | h=4 | Non-Winter (Mar-Sep) | Ridge | 585 | 0.142 | 33.85 | -2.92 | 0.417 | 0.181 |
 | h=4 | Non-Winter (Mar-Sep) | Random Forest | 585 | 0.142 | 35.18 | +6.02 | 0.192 | 0.120 |
-| h=4 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.142 | — | — | 0.000 | 0.000 |
+| h=4 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.142 | — | — | 0.142 | 1.000 |
 | h=5 | Winter (Oct-Feb) | Persistence | 302 | 0.821 | 65.88 | -0.29 | 0.903 | 0.899 |
 | h=5 | Winter (Oct-Feb) | Climatology | 302 | 0.821 | 51.49 | +8.47 | 0.876 | 0.996 |
 | h=5 | Winter (Oct-Feb) | Ridge | 302 | 0.821 | 53.83 | -3.98 | 0.865 | 0.960 |
@@ -154,7 +154,7 @@ Comparison across Persistence, Climatology, Ridge, and Random Forest partitioned
 | h=5 | Non-Winter (Mar-Sep) | Climatology | 585 | 0.140 | 34.82 | +8.88 | 0.333 | 0.134 |
 | h=5 | Non-Winter (Mar-Sep) | Ridge | 585 | 0.140 | 34.36 | +1.24 | 0.372 | 0.195 |
 | h=5 | Non-Winter (Mar-Sep) | Random Forest | 585 | 0.140 | 36.32 | +7.87 | 0.203 | 0.146 |
-| h=5 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.140 | — | — | 0.000 | 0.000 |
+| h=5 | Non-Winter (Mar-Sep) | Trivial Seasonal Rule | 585 | 0.140 | — | — | 0.140 | 1.000 |
 
 ### Full Test Set Alert Detection Benchmark (Random Forest vs Trivial Seasonal Rule)
 
@@ -333,7 +333,7 @@ Measurements for the two non-winter target days with the largest prediction erro
 ## 5. Visualizations & Two-Sentence Interpretations
 
 ### Figure 1: `outputs/winter_timeseries_h1_h5.png` (Actual vs Predicted Time Series across Test Winters)
-> The time series plot shows that Random Forest tracks the broad seasonal rise and peak pollution episodes across both test winters at horizon h=1, though the model may under-predict the most extreme days (explanation not tested).
+> The time series plot shows that Random Forest tracks the broad seasonal rise and peak pollution episodes across both test winters at horizon h=1, though it dampens the most extreme Severe peaks above 450 AQI.
 > At horizon h=5, the predicted curve shows lower high-frequency variance and closely tracks the mid-winter baseline rather than day-to-day transient spikes.
 
 ### Figure 2: `outputs/residuals_h1_h5.png` (Residual vs Predicted Scatter and Residual Histograms)
@@ -341,8 +341,8 @@ Measurements for the two non-winter target days with the largest prediction erro
 > The scatter plots display an upward trend with widening variance as predicted AQI rises, indicating under-prediction when low AQI is predicted and over-prediction when high AQI is predicted; the histograms show distributions centered near zero with mild positive mean residuals (+3.02 for h=1, +5.28 for h=5).
 
 ### Figure 3: `outputs/error_by_month.png` (Monthly Error Breakdown)
-> Monthly MAE is lowest during the summer/monsoon calendar period (July to September, averaging below 25 AQI) and highest during November and December (averaging between 45 and 65 AQI).
+> Monthly MAE is lowest during the monsoon months (July to September, averaging below 25 AQI) and highest during November and December (averaging between 45 and 65 AQI).
 > Random Forest maintains an error advantage over the best baseline during early horizons across both seasons, which narrows to parity by horizon h=5.
 
 ---
-*Report generated: 2026-11-08 20:03:03*
+*Report generated: 2026-11-24 17:34:18*
