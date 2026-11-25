@@ -31,12 +31,13 @@ outputs/*.html
 *.py[cod]
 .DS_Store
 
-# local report and presentation build assets (only final PDFs are tracked)
+# local report and presentation build assets (only final submission deliverables are tracked)
 docs/report_generator/
 docs/presentation_generator/
-docs/final_report/*
-!docs/final_report/Delhi_AQI_Intelligence_UML501_Final_Report.pdf
-docs/final_presentation/*
-!docs/final_presentation/Delhi_AQI_Intelligence_UML501_Presentation.pdf
+docs/final_report/
+docs/final_presentation/
+docs/final_submission/*
+!docs/final_submission/Delhi_AQI_Intelligence_UML501_FINAL_Report.pdf
+!docs/final_submission/Delhi_AQI_Intelligence_UML501_FINAL_Presentation.pdf
 docs/*.py
 docs/tiet_logo.png
