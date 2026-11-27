@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 531 887" width="531" height="887">
+<defs>
+  <marker id="arrow" viewBox="0 0 8 8" refX="5" refY="4" markerWidth="5" markerHeight="5" orient="auto-start-reverse">
+    <path d="M 0 1.5 L 6 4 L 0 6.5 z" fill="#78909C"/>
+  </marker>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap");
+    .node-box {
+      fill: #E3F2FD;
+      stroke: #90CAF9;
+      stroke-width: 1.25px;
+      rx: 7px;
+      ry: 7px;
+    }
+    .node-text {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+      font-weight: 500;
+      fill: #1565C0;
+      text-anchor: middle;
+      dominant-baseline: central;
+      letter-spacing: -0.1px;
+    }
+    .flow-line {
+      fill: none;
+      stroke: #B0BEC5;
+      stroke-width: 1.3px;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+  </style>
+</defs>
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<!-- Flow Lines -->
+<g>
+  <path d="M 455.5 65 L 455.5 86" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 455.5 117 L 455.5 136" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 456 167 L 456 188" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 456 218 L 456 240" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 456 271 L 456 291" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 455.5 321 L 455.5 341" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 441 372 L 441 382 Q 441 384 438 384 L 383 384 Q 380 384 380 386 L 380 394" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 470 372 L 470 753 Q 470 755 468 755 L 441 755 Q 439 755 439 757 L 439 773" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 380 424 L 380 445" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 380 475 L 380 495" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 380.5 526 L 380.5 547" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 369 578 L 369 586 Q 369 588 366 588 L 176.5 588 Q 173.5 588 173.5 590 L 173.5 599" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 390.5 578 L 390.5 599" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 173.5 629 L 173.5 660" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 361 630 L 361 640 Q 361 642 358 642 L 205.5 642 Q 202.5 642 202.5 644 L 202.5 660" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 390.5 630 L 390.5 640 Q 390.5 642 387.5 642 L 317.5 642 Q 314.5 642 314.5 644 L 314.5 660" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 418.5 630 L 418.5 712" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 188.5 691 L 188.5 712" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 314.5 690 L 314.5 712" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 166.5 742 L 166.5 773" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 209 742 L 209 763 Q 209 765 211 765 L 373.5 765 Q 376.5 765 376.5 767 L 376.5 773" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 315 742 L 315 753 Q 315 755 318 755 L 394 755 Q 397 755 397 757 L 397 773" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 418.5 742 L 418.5 773" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 438.5 803 L 438.5 844" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 376.5 803 L 376.5 812 Q 376.5 814 373.5 814 L 102 814 Q 99 814 99 817 L 99 845" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 215 814 L 215 845" class="flow-line" marker-end="url(#arrow)"/>
+  <path d="M 331 814 L 331 845" class="flow-line" marker-end="url(#arrow)"/>
+</g>
+<!-- Nodes -->
+<g>
+  <g id="node1">
+    <rect x="393" y="35" width="125" height="30" class="node-box"/>
+    <text x="455.5" y="50.0" font-size="8.0px" class="node-text">Raw CPCB Station CSV Files</text>
+  </g>
+  <g id="node2">
+    <rect x="417" y="86" width="76" height="31" class="node-box"/>
+    <text x="455.0" y="101.5" font-size="8.5px" class="node-text">load_raw.py</text>
+  </g>
+  <g id="node3">
+    <rect x="405" y="136" width="102" height="31" class="node-box"/>
+    <text x="456.0" y="151.5" font-size="8.0px" class="node-text">raw_filtered.parquet</text>
+  </g>
+  <g id="node4">
+    <rect x="415" y="188" width="82" height="30" class="node-box"/>
+    <text x="456.0" y="203.0" font-size="8.5px" class="node-text">preprocess.py</text>
+  </g>
+  <g id="node5">
+    <rect x="404" y="240" width="104" height="31" class="node-box"/>
+    <text x="456.0" y="255.5" font-size="8.0px" class="node-text">clean_hourly.parquet</text>
+  </g>
+  <g id="node6">
+    <rect x="403" y="291" width="105" height="30" class="node-box"/>
+    <text x="455.5" y="306.0" font-size="8.0px" class="node-text">daily_aggregation.py</text>
+  </g>
+  <g id="node7">
+    <rect x="414" y="341" width="84" height="31" class="node-box"/>
+    <text x="456.0" y="356.5" font-size="8.5px" class="node-text">clean_daily.csv</text>
+  </g>
+  <g id="node8">
+    <rect x="344" y="394" width="72" height="30" class="node-box"/>
+    <text x="380.0" y="409.0" font-size="8.5px" class="node-text">features.py</text>
+  </g>
+  <g id="node9">
+    <rect x="335" y="445" width="90" height="30" class="node-box"/>
+    <text x="380.0" y="460.0" font-size="8.5px" class="node-text">model_ready.csv</text>
+  </g>
+  <g id="node10">
+    <rect x="350" y="495" width="61" height="31" class="node-box"/>
+    <text x="380.5" y="510.5" font-size="8.5px" class="node-text">split.py</text>
+  </g>
+  <g id="node11">
+    <rect x="348" y="547" width="63" height="31" class="node-box"/>
+    <text x="379.5" y="562.5" font-size="8.5px" class="node-text">train.py</text>
+  </g>
+  <g id="node12">
+    <rect x="110" y="599" width="127" height="30" class="node-box"/>
+    <text x="173.5" y="614.0" font-size="7.8px" class="node-text">Ridge Models and Baselines</text>
+  </g>
+  <g id="node13">
+    <rect x="334" y="599" width="113" height="31" class="node-box"/>
+    <text x="390.5" y="614.5" font-size="8.0px" class="node-text">Random Forest Models</text>
+  </g>
+  <g id="node14">
+    <rect x="143" y="660" width="91" height="31" class="node-box"/>
+    <text x="188.5" y="675.5" font-size="8.2px" class="node-text">final_evaluate.py</text>
+  </g>
+  <g id="node15">
+    <rect x="279" y="660" width="71" height="30" class="node-box"/>
+    <text x="314.5" y="675.0" font-size="8.5px" class="node-text">explain.py</text>
+  </g>
+  <g id="node16">
+    <rect x="124" y="712" width="128" height="30" class="node-box"/>
+    <text x="188.0" y="727.0" font-size="7.8px" class="node-text">Test Metrics and Predictions</text>
+  </g>
+  <g id="node17">
+    <rect x="274" y="712" width="82" height="30" class="node-box"/>
+    <text x="315.0" y="727.0" font-size="8.5px" class="node-text">SHAP Outputs</text>
+  </g>
+  <g id="node18">
+    <rect x="378" y="712" width="81" height="30" class="node-box"/>
+    <text x="418.5" y="727.0" font-size="8.5px" class="node-text">Saved Models</text>
+  </g>
+  <g id="node19">
+    <rect x="121" y="773" width="91" height="31" class="node-box"/>
+    <text x="166.5" y="788.5" font-size="8.2px" class="node-text">error_analysis.py</text>
+  </g>
+  <g id="node20">
+    <rect x="356" y="773" width="103" height="30" class="node-box"/>
+    <text x="407.5" y="788.0" font-size="8.2px" class="node-text">Streamlit Dashboard</text>
+  </g>
+  <g id="node21">
+    <rect x="52" y="845" width="94" height="31" class="node-box"/>
+    <text x="99.0" y="860.5" font-size="8.2px" class="node-text">Five-Day Forecast</text>
+  </g>
+  <g id="node22">
+    <rect x="167" y="845" width="96" height="30" class="node-box"/>
+    <text x="215.0" y="860.0" font-size="8.2px" class="node-text">Historical Analysis</text>
+  </g>
+  <g id="node23">
+    <rect x="284" y="845" width="94" height="31" class="node-box"/>
+    <text x="331.0" y="860.5" font-size="8.2px" class="node-text">Model Evaluation</text>
+  </g>
+  <g id="node24">
+    <rect x="397" y="844" width="83" height="32" class="node-box"/>
+    <text x="438.5" y="860.0" font-size="8.2px" class="node-text">Explainable AI</text>
+  </g>
+</g>
+</svg>

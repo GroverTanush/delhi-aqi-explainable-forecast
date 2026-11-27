@@ -388,10 +388,23 @@ Saved forecast figure to outputs/forecast_2026-09-30.png
 
 ---
 
-## 6. Repository Architecture & Directory Structure
+## 6. Complete System Architecture & Directory Structure
+
+### Complete Project Architecture
+
+The complete end-to-end data processing, feature engineering, multi-horizon model training, explainable AI attribution, and dashboard deployment architecture of **Delhi AQI Intelligence** is shown below:
+
+<p align="center">
+  <img src="assets/architecture.png" alt="Delhi AQI Intelligence Complete Architecture" width="550"/>
+</p>
+
+### Repository Directory Structure
 
 ```
 . (project-root)
+├── assets/                            # Visual assets and high-resolution architecture diagrams
+│   ├── architecture.png               # Ultra-high-resolution (2124×3548) complete project architecture diagram
+│   └── architecture.svg               # Scalable vector architecture diagram
 ├── data/
 │   ├── raw/                           # Raw CPCB station CSVs (2010–2026) and data dictionary
 │   └── processed/
